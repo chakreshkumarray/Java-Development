@@ -1,11 +1,17 @@
-package com.ckray.corejava.Test;
+package Test; // This is package
+import Test1.Cat; // import class
 
-import com.ckray.corejava.vehicals.Car;
-import com.ckray.corejava.vehicals.Cycles;
+import java.util.Collections;
+import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        Car car =new Car();
-        Cycles cycle=new Cycles();
+
+        System.out.println("Hello");
+
+
+        List  a = Collections.singletonList("oc");
+
     }
+
 }
