@@ -1,25 +1,41 @@
+public class Bank {
 
-        Student student = new Student(); // create object for Student.Student class by name student
-        /*
-         * student.name = "Chakresh Kumar ray"; // local variable
-         student.age = 21;
-         student.rollNumber = 205423;
-         System.out.println(student.name);
-         System.out.println(student.age);
-         */
+    private long accountNumber;
+    private double balance;
 
-        // If we want to private this...
-        student.setName("Chakresh kumar");  // set value
-        System.out.println(student.getName()); // get value
+    // Method / Functionality / Behaviour
+    public void deposit(double amount){
+        if(amount > 0){
+            balance = balance + amount;
+            System.out.println("Deposited: "+amount);
+        }else {
+            System.out.println("Invalid Deposit amount..");
+        }
+    }
+    public void withdraw(double amount){
+        if(amount > 0 && amount <= balance){
+            balance = balance - amount;
+            System.out.println("Withdraw: "+amount);
+        }else {
+            System.out.println("Invalid Amount and Insufficient balance..");
+        }
+    }
+    // Setter Method
+    public void setAccountNumber(long accountNumber){
+        this.accountNumber = accountNumber;
+    }
 
-        student.setAge(21);
-        System.out.println(student.getAge());
+    public void setBalance(double balance){ // optional
+        this.balance = balance;
+    }
 
-        student.setRollNumber(205423);
-        System.out.println(student.getRollNumber());
+    // Getter Method
+    public long getAccountNumber(){
+        return accountNumber;
+    }
 
-        student.setStudy("B.Tech");
-        System.out.println(student.getStudy());
+    public double getBalance(){
+        return balance;
+    }
+}
 
-        student.setBranch("I.T.");
-        System.out.println(student.getBranch());
