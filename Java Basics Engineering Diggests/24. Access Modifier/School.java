@@ -1,14 +1,14 @@
-package Default;
+package SingletonPattern;
 
-class School {
+public class School {
 
     private static School instant;
 
-    private School(){
+    private School(){  // Constructor of School class
 
     }
 
-     public static School getInstance(){
+    public static School getInstance(){
         if (instant == null){
             instant = new School();
         }
