@@ -1,20 +1,20 @@
-package Iterable;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
+package Queue.Queue.PriorityQueue;
+import java.util.PriorityQueue;
 
 public class Demo {
     public static void main(String[] args) {
-        List<Integer> numbers = new CopyOnWriteArrayList<>();
-        numbers.add(13);
-        numbers.add(78);
-        numbers.add(25);
-        numbers.add(31);
-        for (Integer i : numbers){
-            if (i%2==0){
-                numbers.remove(i);
-            }
-            System.out.println(i);
-        }
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(15);
+        pq.add(10);
+        pq.add(30);
+        pq.add(5);
+        System.out.println(pq);
+        System.out.println(pq.peek());
+        System.out.println(pq.remove());
+        System.out.println(pq.peek());
 
+        while (!pq.isEmpty()){
+            System.out.println(pq.poll());
+        }
     }
 }
