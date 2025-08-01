@@ -1,17 +1,16 @@
-package Map.HashMap.LinkedHashMap;
-import java.util.LinkedHashMap;
+package List.Arrays.ArrayList;
+import java.util.ArrayList;
 
-public class InitialCapacity {
+public class initialCapacity {
     public static void main(String[] args) {
-        LinkedHashMap<String,Integer> linkedHashMap = new LinkedHashMap<>(15,0.5f,false);
 
-        linkedHashMap.put("Apple",21);
-        linkedHashMap.put("Banana",15);
-        linkedHashMap.put("Papaya",17);
-        linkedHashMap.put("Orange",13);
+        ArrayList<Integer> list = new ArrayList<Integer>(1000);
 
-        linkedHashMap.get("Banana");
+        //  Find  size
+        System.out.println(list.size());
 
-        System.out.println(linkedHashMap);
+        // Find element value
+        System.out.println(list.get(0));
+
     }
 }
