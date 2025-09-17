@@ -9,7 +9,7 @@
 		<relativePath/>
 	</parent>
 	<groupId>net.engineeringdigest</groupId>
-	<artifactId>journalApp</artifactId>
+	<artifactId>Create-First-General-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Journal App</name>
 	<description>E2EE Journal App</description>
