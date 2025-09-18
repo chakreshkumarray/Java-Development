@@ -6,7 +6,7 @@ public class Topic15_LC_1436_DestinationCity {
         List<String> list1 = new ArrayList<>();
         list.add("London");
         list1.add("New York");
-        
+
     }
 
     public static String desCity(List<List<String>> paths){
