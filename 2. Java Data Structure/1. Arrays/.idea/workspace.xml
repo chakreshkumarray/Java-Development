@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="475d1b15-1fec-4ec8-9283-c5083c6a2d0d" name="Changes" comment="" />
+    <list default="true" id="475d1b15-1fec-4ec8-9283-c5083c6a2d0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Topic22_LC_1512_NumberOfGoodPairs.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +37,7 @@
     "Application.Topic0_ArraysBasic.executor": "Run",
     "Application.Topic20_LC_2225_FindPlayersWithZeroOrOneLosses.executor": "Run",
     "Application.Topic21_LC_1748_SumOfUniqueElements.executor": "Run",
+    "Application.Topic22_LC_1512_NumberOfGoodPairs.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
