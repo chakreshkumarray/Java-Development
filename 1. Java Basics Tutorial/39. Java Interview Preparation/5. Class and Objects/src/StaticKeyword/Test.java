@@ -1,3 +1,5 @@
+package StaticKeyword;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -17,8 +19,5 @@ public class Test {
         System.out.println(str);
 
         School_SingleTon.getInstance(); // call Single tun design Pattern
-
     }
-
-
 }
