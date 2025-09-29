@@ -1,4 +1,4 @@
-package Inheritance.Multiple;
+package MultipleInheritance;
 
 public class Car {
 

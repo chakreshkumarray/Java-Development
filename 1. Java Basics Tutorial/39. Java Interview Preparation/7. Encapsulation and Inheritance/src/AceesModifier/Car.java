@@ -1,11 +1,10 @@
 package AceesModifier;
-
 public class Car {
 
     public String color;
-    public String model;
-    private double FuelLevel;
-    private double costOfPurchase;
+    private String model;
+    protected double FuelLevel;
+    double costOfPurchase;
 
     public Car(){
 
@@ -28,5 +27,12 @@ public class Car {
                 '}';
     }
 
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel(){
+        return model;
+    }
 
 }

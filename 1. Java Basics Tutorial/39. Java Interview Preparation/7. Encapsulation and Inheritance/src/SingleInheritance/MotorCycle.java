@@ -1,4 +1,4 @@
-package Inheritance.Single;
+package SingleInheritance;
 
 public class MotorCycle extends TwoWheeler{
 
