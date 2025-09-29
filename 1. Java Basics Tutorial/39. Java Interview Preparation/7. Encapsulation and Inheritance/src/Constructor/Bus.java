@@ -1,12 +1,11 @@
 package Constructor;
-
 public class Bus {
 
-    private String color;
-    private String model;
-    private int wheel;
-    private double fuelLevel;
-    private double price;
+    private final String color;
+    private final String model;
+    private final int wheel;
+    private final double fuelLevel;
+    private final double price;
 
     public Bus(String color, String model, int wheel, double fuelLevel, double price) {
         this.color = color;
