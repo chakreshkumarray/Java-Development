@@ -1,5 +1,5 @@
 package Recursion;
-public class FibonacciSeries {
+public class Ch68_FibonacciSeries {
     public static void main(String[] args) {
 
         System.out.println(Fibonacci(5));
