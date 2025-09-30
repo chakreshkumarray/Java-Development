@@ -1,4 +1,4 @@
-package ConstructorCall;
+package MultiLevel_Inheritance;
 
 public class Tests {
     public static void main(String[] args) {

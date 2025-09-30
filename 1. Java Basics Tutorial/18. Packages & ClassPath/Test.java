@@ -1,6 +1,3 @@
-package Test; // This is package
-import Test1.Cat; // import class
-
 import java.util.Collections;
 import java.util.List;
 

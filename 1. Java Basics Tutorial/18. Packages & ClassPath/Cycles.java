@@ -1,5 +1,3 @@
-package com.ckray.corejava.vehicals;
-
 public class Cycles {
 
     static class  MiniCycles{
