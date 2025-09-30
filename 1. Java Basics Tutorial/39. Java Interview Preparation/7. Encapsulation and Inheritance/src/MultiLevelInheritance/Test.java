@@ -2,16 +2,16 @@ package MultiLevelInheritance;
 public class Test {
     public static void main(String[] args) {
 
-        Child vehicle = new Child();
+        Child child = new Child(); // constructor call
+        child.setAge(13);
 
-        Parent two = new Parent();
+        Parent parent = new Parent();
+        parent.setAge(45);
+        System.out.println(parent.getAge());
 
-        GrandParent motorCycle = new GrandParent();
-
-        vehicle.commute();
-        two.commute();
-        two.balance();
-        motorCycle.start();
+        GrandParent grandParent = new GrandParent();
+        grandParent.setName("Ram");
+        System.out.println(grandParent.getName());
 
     }
 }
