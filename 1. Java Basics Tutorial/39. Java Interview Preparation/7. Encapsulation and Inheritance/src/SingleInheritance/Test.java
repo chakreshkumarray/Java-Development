@@ -1,17 +1,13 @@
 package SingleInheritance;
+
 public class Test {
     public static void main(String[] args) {
 
         Vehicle vehicle = new Vehicle();
-
-        TwoWheeler two = new TwoWheeler();
-
-        MotorCycle motorCycle = new MotorCycle();
-
         vehicle.commute();
-        two.commute();
-        two.balance();
-        motorCycle.start();
+
+        TwoWheeler twoWheeler = new TwoWheeler();
+        twoWheeler.commute();
 
     }
 }

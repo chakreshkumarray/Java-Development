@@ -1,4 +1,4 @@
-package SingleInheritance;
+package MultiLevelInheritance;
 
 public class MotorCycle extends TwoWheeler{
 

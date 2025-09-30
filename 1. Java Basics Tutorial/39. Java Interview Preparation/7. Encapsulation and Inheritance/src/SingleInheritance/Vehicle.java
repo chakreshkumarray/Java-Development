@@ -2,15 +2,9 @@ package SingleInheritance;
 
 public class Vehicle {
 
-    protected int numberOfTires;
-
-    public void setNumberOfTires(int numberOfTires) {
-        this.numberOfTires = numberOfTires;
-    }
-
+    public int numberOfTires = 10;
 
     public void commute(){
-        System.out.println("I am going place a two place be using tires: "+numberOfTires);
+        System.out.println("I am going to another place with tires: "+numberOfTires);
     }
-
 }
