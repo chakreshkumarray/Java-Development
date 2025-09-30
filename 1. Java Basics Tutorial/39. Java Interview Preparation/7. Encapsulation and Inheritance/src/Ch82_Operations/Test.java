@@ -6,5 +6,5 @@ public class Test {
         ArrayOperations.Statistics statistics = opr.new Statistics();
         System.out.println(statistics.mean());
     }
-    
+
 }
