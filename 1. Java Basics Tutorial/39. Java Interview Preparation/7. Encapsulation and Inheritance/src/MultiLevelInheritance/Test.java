@@ -2,11 +2,11 @@ package MultiLevelInheritance;
 public class Test {
     public static void main(String[] args) {
 
-        Vehicle vehicle = new Vehicle();
+        Child vehicle = new Child();
 
-        TwoWheeler two = new TwoWheeler();
+        Parent two = new Parent();
 
-        MotorCycle motorCycle = new MotorCycle();
+        GrandParent motorCycle = new GrandParent();
 
         vehicle.commute();
         two.commute();
