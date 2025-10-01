@@ -1,4 +1,4 @@
-package RunTime;
+package RunTimePolymorphism;
 
 public class Animal {
     private String name;
