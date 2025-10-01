@@ -6,8 +6,12 @@ public class Test {
        // Animal animal = new Animal();
         Cat cat = new Cat();
         cat.sayHello();
+        cat.sleep();
+        cat.eat();
 
         Dog dog = new Dog();
         dog.sayHello();
+        dog.sleep();
+        dog.eat();
     }
 }

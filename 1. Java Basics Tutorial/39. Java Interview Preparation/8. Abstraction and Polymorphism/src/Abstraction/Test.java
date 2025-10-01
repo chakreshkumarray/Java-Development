@@ -12,6 +12,6 @@ public class Test {
         Cycle cycle = new Cycle();
         cycle.accelerate();
         cycle.decelerate();
-        
+
     }
 }
