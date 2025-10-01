@@ -1,4 +1,4 @@
-package Interfaces.Interfaces;
+package Interfaces;
 
 public interface MusicPlayer {
 }

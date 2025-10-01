@@ -1,4 +1,4 @@
-package Polymorphism.RunTime;
+package RunTime;
 
 public class Dog extends Animal{
 

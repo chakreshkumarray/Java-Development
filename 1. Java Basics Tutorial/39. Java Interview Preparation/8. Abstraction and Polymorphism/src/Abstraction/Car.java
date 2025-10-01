@@ -1,18 +1,19 @@
-package Abstraction.Vehicles;
+package Abstraction;
 
 public class Car extends Vehicle{
 
     @Override
     public void accelerate() {
-        System.out.println("Fast Go..");
+        System.out.println("Car Fast Go..");
     }
 
     @Override
     public void decelerate() {
-        System.out.println("Slow speed..");
+        System.out.println("Car Slow speed..");
     }
 
     public void Speed(){
-        System.out.println("Increase..");
+        System.out.println("Car Increase..");
     }
+
 }

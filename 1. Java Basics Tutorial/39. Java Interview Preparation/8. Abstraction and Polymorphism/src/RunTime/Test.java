@@ -1,4 +1,4 @@
-package Polymorphism.RunTime;
+package RunTime;
 
 public class Test {
     public static void main(String[] args) {

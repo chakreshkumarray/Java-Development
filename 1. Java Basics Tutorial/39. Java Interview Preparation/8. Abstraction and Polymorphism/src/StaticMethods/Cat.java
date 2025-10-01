@@ -1,4 +1,4 @@
-package Interfaces.StaticMethods;
+package StaticMethods;
 
 public class Cat implements Animal{
 

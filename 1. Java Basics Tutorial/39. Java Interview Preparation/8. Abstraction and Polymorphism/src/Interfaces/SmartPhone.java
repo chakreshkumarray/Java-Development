@@ -1,4 +1,4 @@
-package Interfaces.Interfaces;
+package Interfaces;
 
 public class SmartPhone implements MusicPlayer,Camera,Call{
 

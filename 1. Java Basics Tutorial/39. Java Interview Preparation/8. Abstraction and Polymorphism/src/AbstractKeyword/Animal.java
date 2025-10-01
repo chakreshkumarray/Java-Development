@@ -1,4 +1,4 @@
-package Abstraction.AbstractKeyword;
+package AbstractKeyword;
 
 public abstract class Animal { // This is abstract class
 

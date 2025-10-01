@@ -1,4 +1,4 @@
-package Interfaces.StaticMethods;
+package StaticMethods;
 
 public interface Animal {
     public abstract  void eat();
