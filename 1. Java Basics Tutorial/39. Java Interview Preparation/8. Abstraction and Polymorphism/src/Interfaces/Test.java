@@ -9,6 +9,7 @@ public class Test {
         smartPhone.PlayMusic();
         smartPhone.recordVideo();
         smartPhone.takePhoto();
+        smartPhone.StopMusic();
 
 
     }

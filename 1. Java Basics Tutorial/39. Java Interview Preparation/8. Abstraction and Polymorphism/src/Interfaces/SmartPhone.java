@@ -4,7 +4,7 @@ public class SmartPhone implements MusicPlayer,Camera,Call{
 
     // Calling
     public void makeCall(int number){
-        System.out.println("Calling Ck Ray");
+        System.out.println("Calling Ck Ray "+number);
     }
     public void endCall(){
         System.out.println("End the call from Aa..");
