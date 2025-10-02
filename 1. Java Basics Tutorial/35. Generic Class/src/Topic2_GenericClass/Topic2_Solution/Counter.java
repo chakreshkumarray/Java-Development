@@ -1,4 +1,4 @@
-package Topic2_GenericClass.Solution;
+package Topic2_GenericClass.Topic2_Solution;
 
 public class Counter<T> {
 

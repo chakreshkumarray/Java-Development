@@ -1,4 +1,4 @@
-package Topic2_GenericClass.GenericParameter;
+package Topic2_GenericClass.Topic3_GenericParameter;
 
 public class Pair <K,V>{
     private final K key;

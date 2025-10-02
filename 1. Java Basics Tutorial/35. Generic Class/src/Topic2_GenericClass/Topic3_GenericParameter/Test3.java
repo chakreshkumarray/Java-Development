@@ -1,4 +1,4 @@
-package Topic2_GenericClass.GenericParameter;
+package Topic2_GenericClass.Topic3_GenericParameter;
 
 class Test3 {
     public static void main(String[] args) {

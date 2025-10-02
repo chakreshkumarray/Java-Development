@@ -1,4 +1,4 @@
-package Topic2_GenericClass.Solution;
+package Topic2_GenericClass.Topic2_Solution;
 
 public class Test2 {
     public static void main(String[] args) {

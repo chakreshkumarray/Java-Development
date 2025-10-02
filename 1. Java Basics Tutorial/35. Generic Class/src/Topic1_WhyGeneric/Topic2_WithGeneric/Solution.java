@@ -1,5 +1,4 @@
-package Topic1_WhyGeneric.WithGenerices;
-
+package Topic1_WhyGeneric.Topic2_WithGeneric;
 import java.util.ArrayList;
 
 public class Solution {
