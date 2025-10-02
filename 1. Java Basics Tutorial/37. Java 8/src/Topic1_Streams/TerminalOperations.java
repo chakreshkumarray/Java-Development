@@ -1,4 +1,4 @@
-package Streams;
+package Topic1_Streams;
 
 import java.util.Arrays;
 import java.util.Comparator;

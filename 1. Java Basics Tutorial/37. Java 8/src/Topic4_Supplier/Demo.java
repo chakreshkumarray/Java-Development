@@ -1,4 +1,4 @@
-package Supplier;
+package Topic4_Supplier;
 import java.util.function.Supplier;
 
 public class Demo {

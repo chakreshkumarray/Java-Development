@@ -1,4 +1,4 @@
-package UnaryAndBinary;
+package Topic7_UnaryAndBinary;
 
 import java.util.function.UnaryOperator;
 

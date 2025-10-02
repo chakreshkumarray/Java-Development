@@ -1,4 +1,4 @@
-package Streams;
+package Topic1_Streams;
 
 import java.util.Arrays;
 import java.util.List;
@@ -27,7 +27,8 @@ public class Features {
         Stream<Integer> generate = Stream.generate(() -> 1);
 
         // Iterate
-        List <Integer> collect =  Stream.iterate(1, x->x+1).limit(100).collect(Collectors.toList());
+        List <Integer> collect =  Stream.iterate(1, x->x+1).limit(100).
+                collect(Collectors.toList());
         System.out.println(collect);
 
     }

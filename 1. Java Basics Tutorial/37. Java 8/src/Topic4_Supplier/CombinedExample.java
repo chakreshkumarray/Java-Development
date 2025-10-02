@@ -1,4 +1,4 @@
-package Supplier;
+package Topic4_Supplier;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;

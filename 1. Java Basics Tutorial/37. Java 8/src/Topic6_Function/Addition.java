@@ -1,4 +1,4 @@
-package Function;
+package Topic6_Function;
 
 public class Addition {
     public static void main(String[] args) {

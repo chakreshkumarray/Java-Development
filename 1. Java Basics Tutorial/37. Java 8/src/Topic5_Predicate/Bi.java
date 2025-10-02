@@ -1,4 +1,4 @@
-package Predicate;
+package Topic5_Predicate;
 import java.util.function.BiPredicate;
 
 public class Bi {
