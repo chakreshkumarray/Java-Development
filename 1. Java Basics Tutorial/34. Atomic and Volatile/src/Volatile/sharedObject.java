@@ -1,5 +1,4 @@
-package VOLATILE;
-
+package Volatile;
 public class sharedObject{
     private volatile boolean flag = false;
 

@@ -1,7 +1,8 @@
-package ATOMIC;
+package Atomic;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class AtomicClass {
+public class Atomic {
+
     private final AtomicInteger counter = new AtomicInteger(0);
     public void increment(){
         counter.incrementAndGet();
@@ -11,7 +12,7 @@ public class AtomicClass {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        AtomicClass vc = new AtomicClass ();
+        Atomic vc = new Atomic ();
         Thread t1 = new Thread(()->{
             for (int i = 0; i < 1000; i++){
                 vc.increment();
@@ -29,3 +30,4 @@ public class AtomicClass {
         System.out.println(vc.getCounter());
     }
 }
+
