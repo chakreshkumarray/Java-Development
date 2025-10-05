@@ -1,5 +1,4 @@
 package List.Vector;
-import java.util.ArrayList;
 import java.util.Vector;
 
 public class Vector_vs_Arraylist {

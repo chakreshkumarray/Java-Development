@@ -1,8 +1,12 @@
 package List.Arrays.Comparator;
+import Map.HashMap.Comparable.Student;
+
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class StudentTest {
+public class MethodComparing {
     public static void main(String[] args) {
 
         List<Student> list = new ArrayList<>();
@@ -11,19 +15,14 @@ public class StudentTest {
         list.add(new Student("Charlie", 3.5));
         list.add(new Student("Akash", 3.9));
 
-        list.sort((o1, o2) -> {
-            if (o2.getGpa() - o1.getGpa()>0){
-                return 1;
-            }else if (o2.getGpa() - o1.getGpa()<0){
-                return -1;
-            }else {
-                return  0;
-            }
-        });
+        Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student :: getName); // -> getName
+
+        list.sort(comparator);
         for (Student s : list) {
             System.out.println(s.getName() + " : " + s.getGpa());
         }
 
-
+        Collections.sort(list,comparator);
+        list.sort(comparator);
     }
 }
