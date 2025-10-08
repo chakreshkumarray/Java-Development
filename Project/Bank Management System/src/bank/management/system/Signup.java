@@ -11,11 +11,8 @@ import java.util.Random;
 public class Signup extends JFrame implements ActionListener {
 
     JRadioButton r1,r2,m1,m2,m3;
-
     JButton next;
-
     JTextField textName ,textFname, textEmail,textAdd,textcity,textState,textPin;
-
     JDateChooser dateChooser;
 
     // Random Number Generator
@@ -246,7 +243,7 @@ public class Signup extends JFrame implements ActionListener {
                 String q = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"+gender+"','"
                         +email+"','" +marital+"','"+address+"','"+city+"','"+pincode+"','"+state+"')";
                 con1.statement.executeUpdate(q);
-                new Signup2();
+                new Signup2(first);
                 setVisible(false);
             }
 
