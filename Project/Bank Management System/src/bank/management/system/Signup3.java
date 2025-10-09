@@ -161,15 +161,15 @@ public class Signup3 extends JFrame implements ActionListener {
         add(c6);
 
         // Acknowledgement
-        JCheckBox c7 = new JCheckBox("I here by decleares that the above entered details correct to " +
-                "the best of my knlowledge.",true);
+        JCheckBox c7 = new JCheckBox("I here by declares that the above entered details correct to " +
+                "the best of my knowledge.",true);
         c7.setBackground(new Color(215,252,252));
         c7.setFont(new Font("Raleway",Font.BOLD,12));
         c7.setBounds(100,680,600,20);
         add(c7);
 
         // Form number
-        JLabel l12 = new JLabel("Form No : ");
+        JLabel l12 = new JLabel("Form No: ");
         l12.setFont(new Font("Raleway", Font.BOLD,14));
         l12.setBounds(700,10,100,30);
         add(l12);
@@ -199,9 +199,9 @@ public class Signup3 extends JFrame implements ActionListener {
 
 
         getContentPane().setBackground(new Color(215,252,252));
-        setSize(850,800);
+        setSize(1550,1050);
         setLayout(null);
-        setLocation(400,20);
+        setLocation(0,0);
         setVisible(true);
     }
 
@@ -257,6 +257,7 @@ public class Signup3 extends JFrame implements ActionListener {
                     c1.statement.executeUpdate(q2);
                     JOptionPane.showMessageDialog(null,"Card Number: "+cardno+
                             "\n Pin: "+pin);
+                    new Deposit(pin);
                     setVisible(false);
                 }
             }else if (e.getSource() == c){

@@ -199,8 +199,8 @@ public class Signup extends JFrame implements ActionListener {
 
         getContentPane().setBackground(new Color(222,255,228));
         setLayout(null);
-        setSize(900,900);
-        setLocation(360,40);
+        setSize(1550,1080);
+        setLocation(0,0);
         setVisible(true);
     }
 
@@ -243,7 +243,7 @@ public class Signup extends JFrame implements ActionListener {
                 String q = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"+gender+"','"
                         +email+"','" +marital+"','"+address+"','"+city+"','"+pincode+"','"+state+"')";
                 con1.statement.executeUpdate(q);
-                new Signup2(first);
+                new Signup2(formno);
                 setVisible(false);
             }
 
