@@ -12,7 +12,8 @@ public class FastCash extends JFrame implements ActionListener {
     JButton b1,b2,b3,b4,b5,b6,b7;
     String pin;
 
-    FastCash(){
+    FastCash(String pin){
+        this.pin = pin;
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/atm2.png"));
         Image i2 = i1.getImage().getScaledInstance(1550,830,Image.SCALE_DEFAULT);
@@ -107,7 +108,7 @@ public class FastCash extends JFrame implements ActionListener {
                 if (e.getSource() != b7 && balance < Integer.parseInt(amount)){
                     JOptionPane.showMessageDialog(null, "Insufficient Balance");
                     return;
-                }String num = "17";
+                }
 
                 c.statement.executeUpdate("insert into bank values('"+pin+"','"+date+"', 'withdrawal', '"+amount+"')");
                 JOptionPane.showMessageDialog(null, "Rs. "+amount+" Debited Successfully");
@@ -120,6 +121,6 @@ public class FastCash extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new FastCash();
+        new FastCash("");
     }
 }
