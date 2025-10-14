@@ -9,7 +9,7 @@ public class Cycle extends Vehicle{
 
     @Override
     public void decelerate() {
-        System.out.println("Cycle is running");
+        System.out.println("Cycle slowing");
     }
 
 }
