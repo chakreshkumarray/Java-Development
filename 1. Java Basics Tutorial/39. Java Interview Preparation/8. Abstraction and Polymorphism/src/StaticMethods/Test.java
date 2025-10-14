@@ -6,6 +6,6 @@ public class Test {
         Dog dog = new Dog();
         dog.eat();
 
-        Animal.info();  // static access without make object
+        Animal.info();  // static can be accessible without make object of class
     }
 }
