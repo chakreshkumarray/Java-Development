@@ -3,12 +3,21 @@
   <display-name>DoPost GetPost</display-name>
   
   <servlet>
-          <servlet-name>DoPostGetPost</servlet-name>
-          <servlet-class>com.DoPostGetPost.DoPostGetPost</servlet-class>         
+       <!--  <servlet-name>DoPostGetPost</servlet-name>
+          <servlet-class>com.DoPostGetPost.DoPostGetPost</servlet-class> 
+          -->
+            <servlet-name>Sum</servlet-name>
+            <servlet-class>com.DoPostGetPost.Sum</servlet-class> 
+              
   </servlet>
   
   <servlet-mapping>
-                 <servlet-name>DoPostGetPost</servlet-name>
+              <!--   <servlet-name>DoPostGetPost</servlet-name>
                  <url-pattern>/message</url-pattern>
+                 <url-pattern>/sum</url-pattern>
+                 -->
+                 <servlet-name>Sum</servlet-name>
+                    <url-pattern>/sum</url-pattern>
+                        
   </servlet-mapping>
 </web-app>
