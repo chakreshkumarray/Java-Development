@@ -7,10 +7,10 @@ public class Test {
         animal.eat();
         animal.sayHello();
 
-        Animal dog = new Dog();
+        Dog dog = new Dog();
         dog.sayHello();
 
-        Animal cat = new Cat();
+        Cat cat = new Cat();
         cat.sayHello();
 
     }
