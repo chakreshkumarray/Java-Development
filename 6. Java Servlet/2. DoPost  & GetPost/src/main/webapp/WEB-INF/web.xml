@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
-  <display-name>DoPost GetPost</display-name>
-  
+  <display-name>2. DoPost GetPost</display-name>
   <servlet>
-       <!--  <servlet-name>DoPostGetPost</servlet-name>
-          <servlet-class>com.DoPostGetPost.DoPostGetPost</servlet-class> 
-          -->
-            <servlet-name>Sum</servlet-name>
-            <servlet-class>com.DoPostGetPost.Sum</servlet-class> 
-              
+    <servlet-name>Sum</servlet-name>
+    <servlet-class>com.DoPostGetPost.Sum</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-              <!--   <servlet-name>DoPostGetPost</servlet-name>
-                 <url-pattern>/message</url-pattern>
-                 <url-pattern>/sum</url-pattern>
-                 -->
-                 <servlet-name>Sum</servlet-name>
-                    <url-pattern>/sum</url-pattern>
-                        
+    <servlet-name>Sum</servlet-name>
+    <url-pattern>/sum</url-pattern>
   </servlet-mapping>
 </web-app>
