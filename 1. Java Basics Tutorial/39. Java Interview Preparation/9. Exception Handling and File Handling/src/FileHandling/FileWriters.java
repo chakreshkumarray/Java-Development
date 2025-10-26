@@ -5,10 +5,10 @@ import java.io.IOException;
 public class FileWriters {
     public static void main(String[] args) {
 
-        String fileName = "Chakresh.txt";
+        String fileName = "Java.txt";
 
         try (FileWriter writer = new FileWriter(fileName)){
-            writer.write("I am Chakresh from sultanpur U.P");
+            writer.write("This is java course tutorial by kgCoding ");
             writer.flush();
             System.out.println("File successfully write");
         } catch (IOException e) {
