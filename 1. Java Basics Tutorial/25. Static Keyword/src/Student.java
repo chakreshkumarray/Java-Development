@@ -4,6 +4,16 @@ public class Student {
     private String name;
     private int age;
 
+    public static int count = 0;
+
+    public Student(){
+        count++;
+    }
+
+    static {
+        System.out.println("Hello Ck");
+    }
+
     public int getId() {
         return id;
     }
@@ -27,5 +37,8 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
-    
+
+    public static void getCount(){
+        System.out.println("Total Student "+count);
+    }
 }
