@@ -9,6 +9,13 @@ public class Counter {
 
     }
 
+    // OR synchronized block for one instance
+    //     public void increment(){
+    //     synchronized (this){
+    //         count++;
+    //     }
+    // }
+
     public  int getCount(){
         return count;
 
