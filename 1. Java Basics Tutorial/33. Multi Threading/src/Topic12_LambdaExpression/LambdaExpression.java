@@ -21,5 +21,12 @@ public class LambdaExpression {
         // Second Method
         Thread t2 = new Thread(() -> System.out.println("ck"));
         t2.start();
+
+        Thread t3 = new Thread(() -> {
+            for(int i = 0; i<= 10; i++){
+                System.out.println(i);
+            }
+        });
+        t3.start();
     }
 }
