@@ -5,7 +5,7 @@ public class ExecutorsServices {
     public static void main(String[] args) {
 
         ExecutorService executor = Executors.newFixedThreadPool(5);
-                                      // Executors.newSingleThreadExecutor();
+                                      // Executor.newSingleThreadExecutor();
         executor.submit(() -> {
             System.out.println(factorial(4));
             try {
