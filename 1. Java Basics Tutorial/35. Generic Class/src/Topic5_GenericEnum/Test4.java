@@ -8,7 +8,7 @@ public class Test4 {
         System.out.println(day2);
         System.out.println(Week.Tuesday);
 
-        // Problem                     type safe
+        // ProblemTest                     type safe
         // Week day = "Monday";        Compile-time error
 
     }
