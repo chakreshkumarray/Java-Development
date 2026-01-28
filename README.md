@@ -1,2 +1,3 @@
-# JAVA
-Java Tutorial
+Full Stack Java Developer
+
+This repository showcases projects and hands-on experience as a Full Stack Java Developer, covering end-to-end application development. It includes backend development using Java, Spring Boot, microservices architecture, RESTful APIs, Kafka for event-driven communication, and Eureka for service discovery. Applications are deployed and tested on the Tomcat server. Frontend development is handled using HTML, CSS, JavaScript, and JSP. Database integration is implemented using JDBC and MySQL. Maven is used for project build automation and dependency management. These projects demonstrate scalable system design, clean coding practices, and real-world experience with enterprise-level Java applications.
