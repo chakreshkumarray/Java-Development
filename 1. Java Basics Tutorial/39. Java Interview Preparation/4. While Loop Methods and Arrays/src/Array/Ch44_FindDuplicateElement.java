@@ -5,13 +5,16 @@ public class Ch44_FindDuplicateElement {
 
         int[] arr = {1,2,3,4,5,1,2};
 
+        // int count = 0;
         for (int i = 0; i < arr.length-1; i++){
             for (int j = i+1; j<arr.length; j++){
                 if (arr[i] == arr[j]){
                     System.out.println("Duplicate Element is: "+arr[i]);
+                    // count++;
                 }
             }
         }
+        // System.out.println(count);
 
     }
 }
