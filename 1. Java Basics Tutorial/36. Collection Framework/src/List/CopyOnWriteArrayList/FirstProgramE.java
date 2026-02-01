@@ -5,7 +5,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class FirstProgramE {
     public static void main(String[] args) {
 
-      //  List<String> shoppingList = new ArrayList<>(); // Problem
+//      List<String> shoppingList = new ArrayList<>(); // Problem
         List<String> shoppingList = new CopyOnWriteArrayList<>(); // Solution
         shoppingList.add("Milk");
         shoppingList.add("Eggs");
