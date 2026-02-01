@@ -15,7 +15,7 @@ public class MethodComparing {
         list.add(new Student("Charlie", 3.5));
         list.add(new Student("Akash", 3.9));
 
-        Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student :: getName); // -> getName
+        Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student :: getName);// -> getName
 
         list.sort(comparator);
         for (Student s : list) {
