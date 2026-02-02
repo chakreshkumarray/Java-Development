@@ -1,8 +1,0 @@
-package com.SpringApp3.CRUD_Operation_With_MongoDB.repository;
-import com.SpringApp3.CRUD_Operation_With_MongoDB.entity.JournalEntry;
-import org.bson.types.ObjectId;
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-public interface JournalEntryRepository extends MongoRepository<JournalEntry, ObjectId> {
-
-}
