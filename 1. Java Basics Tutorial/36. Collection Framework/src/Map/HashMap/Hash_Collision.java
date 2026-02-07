@@ -1,4 +1,4 @@
-package Map.HashMap.HashMap;
+package Map.HashMap;
 
 public class Hash_Collision {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ public class Linked_As_Stack {
     public static void main(String[] args) {
         LinkedList<Integer> list = new  LinkedList<Integer>();
 
-        // Linked List using  as Stack
+        // Linked List using  as StackUsingArrayDeque
         // Add Or Push
         list.addLast(3);
         list.addLast(9);

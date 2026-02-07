@@ -1,4 +1,4 @@
-package Map.HashTable.Problem;
+package Map.HashTable;
 import java.util.Hashtable;
 
 public class Collision {

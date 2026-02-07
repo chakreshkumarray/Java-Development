@@ -1,8 +1,9 @@
-package Map.HashMap.HashMap;
+package Map.HashMap;
 import java.util.HashMap;
 
 public class Hash_Example {
     public static void main(String[] args) {
+
         HashMap<String, Integer> fruitMap = new HashMap<>();
 
         fruitMap.put("Apple",50);
