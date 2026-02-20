@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SwitchDeepDive {
+public class S2_SwitchDeepDive {
     public static void main(String[] args) {
 
         Scanner input =new Scanner(System.in);

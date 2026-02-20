@@ -1,6 +1,4 @@
-
-
-public class ConditionalStatements {
+public class C3_If_Else_If {
     public static void main(String[] args) {
 
         boolean isMale = true;

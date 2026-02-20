@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class Ch57_Month {
+public class S5_Month {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

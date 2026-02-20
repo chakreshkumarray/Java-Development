@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class SwitchStatements {
+public class S1_SwitchStatement {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

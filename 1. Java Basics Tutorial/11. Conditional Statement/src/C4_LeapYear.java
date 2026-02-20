@@ -1,8 +1,6 @@
-
-
 import java.util.Scanner;
 
-public class Ch18_CheckLeapYear {
+public class C4_LeapYear {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

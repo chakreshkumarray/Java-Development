@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Months {
+public class S3_Month {
     public static void main(String[] args) {
 
         Scanner input =new Scanner(System.in);

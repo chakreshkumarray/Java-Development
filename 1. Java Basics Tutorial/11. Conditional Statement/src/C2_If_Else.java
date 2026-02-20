@@ -1,8 +1,6 @@
-
-
 import java.util.Scanner;
 
-public class Ch15_CheckPositiveNegativeZero {
+public class C2_If_Else {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

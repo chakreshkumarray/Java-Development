@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SwitchOnString {
+public class S4_SwitchOnString {
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);

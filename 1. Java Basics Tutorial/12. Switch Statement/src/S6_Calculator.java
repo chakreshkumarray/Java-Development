@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class Ch58_Calculator {
+public class S6_Calculator {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
