@@ -1,6 +1,4 @@
-
-
-public class SubStrings {
+public class S3_SubString {
     public static void main(String[] args) {
 
         // Find Substring of string

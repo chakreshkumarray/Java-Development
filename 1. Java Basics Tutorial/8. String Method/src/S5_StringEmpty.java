@@ -1,21 +1,21 @@
-public class StringEmpty {
+public class S5_StringEmpty {
     public static void main(String[] args) {
 
-        String name="";
+        String name = "";
         System.out.println(name.isEmpty());
 
-        String a=" ";
+        String a = " ";
         System.out.println(a.isEmpty());
 
-        String b="Ck..";
+        String b = "Ck..";
         System.out.println(b.isEmpty());
 
         // space ignore
-        String c="   ";
+        String c = "   ";
         System.out.println(c.isBlank());
 
         // index finds
-        String myName="Chakresh Kumar";
+        String myName = "Chakresh Kumar";
         System.out.println(myName.indexOf("a"));
         System.out.println(myName.lastIndexOf("k"));
         System.out.println(myName.indexOf('C',5,9));

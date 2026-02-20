@@ -1,6 +1,4 @@
-package ToStrings;
-
-public class ToString {
+public class S4_ToString {
     public static void main(String[] args) {
 
         String str = "Chakresh Kumar Ray";
@@ -8,7 +6,7 @@ public class ToString {
 
         String[] myStr = {"C","H","A"};
 
-        for (int i = 0; i< myStr.length-1;i++) {
+        for (int i = 0; i< myStr.length-1; i++) {
             System.out.println(myStr.toString());
         }
     }

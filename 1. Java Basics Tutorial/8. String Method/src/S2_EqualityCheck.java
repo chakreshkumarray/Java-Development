@@ -1,4 +1,4 @@
-public class Equality_Check {
+public class S2_EqualityCheck {
     public static void main(String[] args) {
 
         // String Equality Check
@@ -11,7 +11,7 @@ public class Equality_Check {
         String name4 = "ck kumar";
         System.out.println(name3.equalsIgnoreCase(name4));
 
-        // Compare to Methods check character lexico graphically
+        // Compare to Method check character lexico graphically
         String str1 = "pka";
         String str2 = "AkCK";
         System.out.println('p'+0);
