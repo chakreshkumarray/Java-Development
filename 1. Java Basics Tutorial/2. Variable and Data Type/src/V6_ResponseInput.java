@@ -1,4 +1,4 @@
-public class Ch5_ResponseInput {
+public class V6_ResponseInput {
     public static void main(String[] args) {
 
         long Big = 45;

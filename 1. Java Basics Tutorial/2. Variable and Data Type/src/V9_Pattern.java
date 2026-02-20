@@ -1,4 +1,4 @@
-public class Pattern {
+public class V9_Pattern {
     public static void main(String[] args) {
 
         System.out.println("*");

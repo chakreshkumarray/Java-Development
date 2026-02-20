@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ch6_AddTwoNumber {
+public class V5_AddTwoNumber {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class Ch6_AddTwoNumber {
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
 
-        int sum = num1+num2;
+        int sum = num1 + num2;
 
         System.out.println("Sum of numbers: "+sum);
     }
