@@ -1,4 +1,4 @@
-public class StringPool {
+public class S3_StringPool {
     public static void main(String[] args) {
 
         String a = "ck";  // Stored in String Pool as same memory location

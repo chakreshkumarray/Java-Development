@@ -1,7 +1,7 @@
-public class Student_Object {
+public class S4_StudentObject {
     public static void main(String[] args) {
 
-        Student_Class student = new Student_Class();
+        S4_StudentClass student = new S4_StudentClass();
         student.name = "Chakresh";
         student.rollNumber = 205423;
         student.Standard = 12;

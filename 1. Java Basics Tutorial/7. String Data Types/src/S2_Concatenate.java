@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Concatenate {
+public class S2_Concatenate {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
