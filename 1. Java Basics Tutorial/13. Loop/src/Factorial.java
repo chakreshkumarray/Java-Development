@@ -1,15 +1,17 @@
+package Loop;
+
 public class Factorial {
     public static void main(String[] args) {
 
-        // 6!=6*5*4*3*2*1;
+        System.out.println(Fact(5));
+    }
 
-     int n=5;
-     int result=1;
-     while (n>0){
-         result=result*n;
-         n--;
-     }
-        System.out.println(result);
+    public static int Fact(int num){
 
+        int fact = 1;
+        for (int i = 1; i <= num; i++){
+            fact = fact * i;
+        }
+        return fact;
     }
 }

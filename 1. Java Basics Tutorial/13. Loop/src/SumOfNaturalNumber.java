@@ -1,11 +1,12 @@
+package WhileLoop;
+
 public class SumOfNaturalNumber {
     public static void main(String[] args) {
 
-        // sum of natural numbers
-        int sum=0;
-        for (int i=1;i<=10;i++){
-            sum=sum+i;
+        int sum = 0;
+        for (int i = 1; i <= 20; i++){
+            sum = sum + i;
         }
-        System.out.println(sum);
+        System.out.println("Sum of Natural Number: "+sum);
     }
 }
