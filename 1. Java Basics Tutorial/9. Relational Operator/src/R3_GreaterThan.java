@@ -1,4 +1,4 @@
-public class GreaterThan {
+public class R3_GreaterThan {
     public static void main(String[] args) {
 
         int a = 24;

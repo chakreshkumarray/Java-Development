@@ -1,8 +1,6 @@
-
-
 import java.util.Scanner;
 
-public class Ch16_OddEven {
+public class R8_OddEven {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

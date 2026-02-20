@@ -1,10 +1,7 @@
-
-
-public class RelationalOperator {
+public class R7_RelationalOperator {
     public static void main(String[] args) {
 
         int num = 10;
-
         if (num >= 9){
             System.out.println("You are able");
         }else {

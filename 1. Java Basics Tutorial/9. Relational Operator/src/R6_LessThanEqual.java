@@ -1,4 +1,4 @@
-public class LessThanEqual {
+public class R6_LessThanEqual {
     public static void main(String[] args) {
 
         int a = 25;

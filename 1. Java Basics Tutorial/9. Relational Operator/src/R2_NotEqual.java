@@ -1,4 +1,4 @@
-public class NotEqual {
+public class R2_NotEqual {
     public static void main(String[] args) {
 
         int a = 15;

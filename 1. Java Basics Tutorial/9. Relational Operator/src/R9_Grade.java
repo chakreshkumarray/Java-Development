@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class Ch19_Grade {
+public class R9_Grade {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class LessThan {
+public class R4_LessThan {
     public static void main(String[] args) {
 
         int a = 25;

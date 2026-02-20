@@ -1,4 +1,4 @@
-public class GreaterThanEqual {
+public class R5_GreaterThanEqual {
     public static void main(String[] args) {
 
         int a = 15;
