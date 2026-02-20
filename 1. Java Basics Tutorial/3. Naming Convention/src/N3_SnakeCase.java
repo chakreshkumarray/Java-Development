@@ -1,4 +1,4 @@
-public class Snake_Case {
+public class N3_SnakeCase {
     public static void main(String[] args) {
 
         String my_variable_name = "ck ray...";

@@ -1,4 +1,4 @@
-public class Kebab_Case {
+public class N2_KebabCase {
     public static void main(String[] args) {
 
         String my = "ck..."; // my-variable-name="ck";

@@ -1,4 +1,4 @@
-public class Case_Sensitive {
+public class N4_CaseSensitive {
     public static void main(String[] args) {
 
         // case-sensitive
@@ -9,6 +9,5 @@ public class Case_Sensitive {
 
         String myName = "ck..";
         System.out.println(myName);
-
     }
 }
