@@ -1,8 +1,6 @@
-package TernaryOperator;
-
 import java.util.Scanner;
 
-public class Ch53_MinimumTernary {
+public class L6_MinimumTernary {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -12,6 +10,6 @@ public class Ch53_MinimumTernary {
         int second = input.nextInt();
 
         int minimum = first < second ? first : second;
-        System.out.println("Greatest number is: "+minimum);
+        System.out.println("Minimum number is: "+minimum);
     }
 }

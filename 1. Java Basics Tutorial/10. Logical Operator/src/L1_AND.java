@@ -1,4 +1,4 @@
-public class AND {
+public class L1_AND {
     public static void main(String[] args) {
 
         int marks=35;

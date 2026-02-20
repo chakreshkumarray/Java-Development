@@ -1,4 +1,4 @@
-public class NOT {
+public class L3_NOT {
     public static void main(String[] args) {
 
         int a=2;

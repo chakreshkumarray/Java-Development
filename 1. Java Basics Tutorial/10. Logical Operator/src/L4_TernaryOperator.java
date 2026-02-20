@@ -1,8 +1,6 @@
-package TernaryOperator;
-
 import java.util.Scanner;
 
-public class TernaryOperator {
+public class L4_TernaryOperator {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -12,6 +10,6 @@ public class TernaryOperator {
         int num2 = input.nextInt();
 
         int greatest = num1 > num2 ? num1 : num2;
-        System.out.println(greatest+"greatest number");
+        System.out.println(greatest+": greatest number");
     }
 }

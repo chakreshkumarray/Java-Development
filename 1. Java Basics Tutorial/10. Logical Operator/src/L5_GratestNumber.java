@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ch_17GratestNumber {
+public class L5_GratestNumber {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

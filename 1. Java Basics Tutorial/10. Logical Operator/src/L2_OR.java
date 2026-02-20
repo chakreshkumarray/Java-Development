@@ -1,4 +1,4 @@
-public class OR {
+public class L2_OR {
     public static void main(String[] args) {
 
         String name="Chakresh Kumar";

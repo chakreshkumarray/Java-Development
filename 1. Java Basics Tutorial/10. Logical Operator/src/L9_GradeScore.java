@@ -1,8 +1,6 @@
-package TernaryOperator;
-
 import java.util.Scanner;
 
-public class Ch56_GradeScore {
+public class L9_GradeScore {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
