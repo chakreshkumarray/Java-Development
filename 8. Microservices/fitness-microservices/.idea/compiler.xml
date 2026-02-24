@@ -17,7 +17,6 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="activityservice" />
         <module name="userservice" />
       </profile>
       <profile name="Annotation profile for aiservice" enabled="true">
@@ -28,6 +27,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="aiservice" />
+        <module name="activityservice" />
       </profile>
     </annotationProcessing>
   </component>
