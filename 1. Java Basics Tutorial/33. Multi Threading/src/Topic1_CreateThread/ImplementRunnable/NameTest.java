@@ -6,8 +6,7 @@ public class NameTest {
         Name name = new Name();
         Thread t1 = new Thread(name);
         t1.start();
-
-
+        
         for (; ; ){
             System.out.println("Chakra");
         }
