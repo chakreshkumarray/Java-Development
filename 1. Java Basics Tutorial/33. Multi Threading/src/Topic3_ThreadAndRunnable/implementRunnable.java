@@ -1,6 +1,6 @@
 package Topic3_ThreadAndRunnable;
 
-public class implementRunnable extends ExtendThread implements Runnable{
+public class implementRunnable implements Runnable{
 
     @Override
     public void run() {
