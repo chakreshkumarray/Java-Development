@@ -1,5 +1,3 @@
-package Array;
-
 public class Ch42_maximumAndMinimumElement {
     public static void main(String[] args) {
 
