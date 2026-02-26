@@ -1,7 +1,7 @@
 public class Two_2D_Array {
     public static void main(String[] args) {
 
-        // Declaration of Two D Array
+        // Declaration of Two D A2_Array
         int[][] arr=new int[3][3];
 
         int[][] num={{12,56,33,},{25,63,54},{89,64,47}};
