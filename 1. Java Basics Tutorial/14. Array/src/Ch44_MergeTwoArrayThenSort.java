@@ -8,7 +8,7 @@ public class Ch44_MergeTwoArrayThenSort {
 
         int[] merged = new int[arr1.length+arr2.length];
 
-        // Merge Array
+        // Merge A2_Array
         for (int i = 0; i < arr1.length;i++){
             for (int j = 0; j < arr2.length; j++){
                 merged[i] = arr1[i];
@@ -20,7 +20,7 @@ public class Ch44_MergeTwoArrayThenSort {
             System.out.print(merged[i]+" ");
         }
 
-        // Sort Array
+        // Sort A2_Array
         for (int i = 0; i < merged.length-1; i++){
             for (int j = i+1; j < merged.length; j++){
                 if (merged[i] > merged[j]) {
