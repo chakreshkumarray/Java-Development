@@ -14,9 +14,9 @@ public class Ch46_ArrayIsPalindrome {
             }
         }
         if (isPalindrome) {
-            System.out.println("Array is Palindrome");
+            System.out.println("A2_Array is Palindrome");
         } else {
-            System.out.println("Array is NOT Palindrome");
+            System.out.println("A2_Array is NOT Palindrome");
         }
 
     }
