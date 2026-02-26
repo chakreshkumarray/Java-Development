@@ -1,6 +1,6 @@
 public class A14_2D_Array {
     public static void main(String[] args) {
-        
+
         // declaration
         int[][] a;
 
