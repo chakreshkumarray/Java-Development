@@ -31,6 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.A1_BubbleSort.executor": "Run",
+    "Application.A2_BubbleSort_ForString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Topic0_ArraysBasic.executor": "Run",
     "Application.Topic20_LC_2225_FindPlayersWithZeroOrOneLosses.executor": "Run",
