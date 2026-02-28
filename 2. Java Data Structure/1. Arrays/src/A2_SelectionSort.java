@@ -10,6 +10,21 @@ public class A2_SelectionSort {
 
        📍 Where It Is Used
            Small datasets, When memory usage must be minimal
+
+        🔹 Example
+           Array: [29, 10, 14, 37, 13]
+           Pass 1:
+           Minimum = 10 → Swap with 29
+           [10, 29, 14, 37, 13]
+           Pass 2:
+           Minimum = 13 → Swap with 29
+           [10, 13, 14, 37, 29]
+           Pass 3:
+           Minimum = 14 → Already correct
+           [10, 13, 14, 37, 29]
+           Pass 4:
+           Minimum = 29 → Swap with 37
+           [10, 13, 14, 29, 37]
          */
         int[] arr = {38, 52, 9, 18, 6, 62, 13};
         for (int i = 0; i < arr.length; i++){

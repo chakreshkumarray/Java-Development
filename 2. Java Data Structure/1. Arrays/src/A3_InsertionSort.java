@@ -1,6 +1,5 @@
 public class A3_InsertionSort {
     public static void main(String[] args) {
-
         /*
         Insertion Sort is a comparison-based sorting algorithm that builds the final
         sorted array one element at a time by inserting each element into its correct
@@ -21,6 +20,24 @@ public class A3_InsertionSort {
           Average Case: O(n²)
           Worst Case (Reverse Sorted): O(n²)
           Space Complexity: O(1) (In-place)
+
+       🔹 Example
+          Array: [5, 2, 4, 6, 1, 3]
+          Pass 1:
+          Insert 2 before 5
+          [2, 5, 4, 6, 1, 3]
+          Pass 2:
+          Insert 4 between 2 and 5
+          [2, 4, 5, 6, 1, 3]
+          Pass 3:
+          6 already in correct position
+          [2, 4, 5, 6, 1, 3]
+          Pass 4:
+          Insert 1 at beginning
+          [1, 2, 4, 5, 6, 3]
+          Pass 5:
+          Insert 3 between 2 and 4
+          [1, 2, 3, 4, 5, 6]
          */
         int[] arr = {5, 1, 6, 2, 4, 3};
         int temp;
