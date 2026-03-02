@@ -9,7 +9,7 @@ public class S2_SelectionSort {
 
             for (int j = i + 1; j < name.length; j++){
 
-                if (name[j].compareTo(name[minIndex])<0){
+                if (name[j].compareTo(name[minIndex]) < 0){
                     minIndex = j;
                 }
             }
