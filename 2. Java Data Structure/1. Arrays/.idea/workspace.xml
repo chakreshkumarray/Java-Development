@@ -38,6 +38,8 @@
     "Application.A14_FindDuplicateElement.executor": "Run",
     "Application.A15_DuplicateElementOccurrence.executor": "Run",
     "Application.A16_DuplicateElement_Brute_Force_Method.executor": "Run",
+    "Application.A17_DuplicateElement_Set.executor": "Run",
+    "Application.A18_DuplicateElement_HashTable.executor": "Run",
     "Application.A1_BubbleSort.executor": "Run",
     "Application.A2_BubbleSort_ForString.executor": "Run",
     "Application.A2_SelectionSort.executor": "Run",
