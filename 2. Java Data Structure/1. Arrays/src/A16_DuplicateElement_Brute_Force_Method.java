@@ -3,6 +3,7 @@ public class A16_DuplicateElement_Brute_Force_Method {
 
         // Find Duplicate Element in Array Using Brute Force Method
         // This use where element repeat only one time otherwise it will through error.
+
         int[] arr = {3, 5, 4, 3, 2, 2, 1};
 
         for (int i = 0; i < arr.length; i++){
