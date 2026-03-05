@@ -1,9 +1,7 @@
-package Array;
-
-public class Ch44_DeletionInArray {
+public class A24_DeletionInArray {
     public static void main(String[] args) {
 
-        int[] arr = {10,20,30,40,50};
+        int[] arr = {10, 20, 30, 40, 50};
         int indexToRemove = 2;
 
         // Shift elements to the left from position

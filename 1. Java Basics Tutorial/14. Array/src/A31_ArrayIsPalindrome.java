@@ -1,9 +1,7 @@
-package Array;
-
-public class Ch46_ArrayIsPalindrome {
+public class A31_ArrayIsPalindrome {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3,2, 1};
+        int[] arr = {1, 2, 3, 2, 1};
         boolean isPalindrome = true;
         int n = arr.length;
 
@@ -14,9 +12,9 @@ public class Ch46_ArrayIsPalindrome {
             }
         }
         if (isPalindrome) {
-            System.out.println("A2_Array is Palindrome");
+            System.out.println("Array is Palindrome");
         } else {
-            System.out.println("A2_Array is NOT Palindrome");
+            System.out.println("Array is NOT Palindrome");
         }
 
     }

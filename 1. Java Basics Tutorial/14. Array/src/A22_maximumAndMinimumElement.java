@@ -1,7 +1,7 @@
-public class Ch42_maximumAndMinimumElement {
+public class A22_maximumAndMinimumElement {
     public static void main(String[] args) {
 
-        int[] arr = {13,16,90,64,16,33,52};
+        int[] arr = {13, 16, 90, 64, 16, 33, 52};
 
         // For Minimum Value
         int max = Integer.MIN_VALUE;

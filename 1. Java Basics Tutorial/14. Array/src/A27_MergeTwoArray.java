@@ -1,10 +1,8 @@
-package Array;
-
-public class Ch44_MergeTwoArray {
+public class A27_MergeTwoArray {
     public static void main(String[] args) {
 
-        int[] arr1 = {48,14,71,41,94,76,59};
-        int[] arr2 = {98,49,37,85,72,12,31};
+        int[] arr1 = {48, 14, 71, 41, 94, 76, 59};
+        int[] arr2 = {98, 49, 37, 85, 72, 12, 31};
 
         int[] merged = new int[arr1.length + arr2.length];
 
@@ -15,8 +13,8 @@ public class Ch44_MergeTwoArray {
             }
         }
 
-        for (int i = 0; i < merged.length; i++) {
-            System.out.print(merged[i] + " ");
+        for (int j : merged) {
+            System.out.print(j + " ");
         }
 
     }
