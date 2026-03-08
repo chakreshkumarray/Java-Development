@@ -6,6 +6,7 @@ public class Student {
     int id;
     double fees;
 
+    // Parameterized constructor
     public Student(String name, String college, int age, int id, double fees) {
         this.name = name;
         this.college = college;
