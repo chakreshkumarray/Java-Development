@@ -8,5 +8,10 @@ public class Test {
         cycle.accelerate();
         cycle.decelerate();
 
+        /*
+        Cycle --> Vehicle
+        Car --> Vehicle
+        EVCar --> Car
+         */
     }
 }

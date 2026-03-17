@@ -1,11 +1,13 @@
-package SuperKeyword;
-
+/*
+Super Keyword --> Super Keyword is a reference variable which is used to refer
+                  immediate parent class object
+ */
 public class GrandParent {
 
     private String name;
     private int age;
 
-    // Setter Method
+    // Setter
     public GrandParent(int age , String name){
         this.age = age;
         this.name = name;
@@ -20,7 +22,7 @@ public class GrandParent {
         this.age = age;
     }
 
-    // Getter Method
+    // Getter
     public String getName(){
         return name;
     }

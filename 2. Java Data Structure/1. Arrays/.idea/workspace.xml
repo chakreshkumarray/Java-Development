@@ -57,6 +57,8 @@
     "Application.A30_RemoveDuplicateElementSortedArray.executor": "Run",
     "Application.A31_RemoveDuplicateElementUnSortedArray.executor": "Run",
     "Application.A32_MergeTwoArray.executor": "Run",
+    "Application.A33_PairOfTwoNumberEqualToTarget.executor": "Run",
+    "Application.A34_FindSubArrayWithTheGivenSumK.executor": "Run",
     "Application.A3_InsertionSort.executor": "Run",
     "Application.A3_SelectionSort.executor": "Debug",
     "Application.A4_MergeSort.executor": "Run",

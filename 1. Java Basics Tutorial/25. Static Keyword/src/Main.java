@@ -13,16 +13,24 @@ public class Main {
         Student student6 = new Student();
         Student student7 = new Student();
 
+        System.out.println(student1.getName());
+        System.out.println(student1.getAge());
+        System.out.println(student1.getId());
+
         Student.getCount();
 
         System.out.println(Student.count);
-        int c = sum(12,12);
-        Utils.fact(5);
-        Utils.sum(12,55);
+        int c = sum(12,13);
+        System.out.println(c);
+        System.out.println(Utils.fact(5));
+        System.out.println(Utils.sum(12,55));
+        Utils.TrimAndUpperCase("chakresh");
+        System.out.println(Utils.max(12,14));
+        System.out.println(Utils.min(4,1));
 
     }
 
     public static int sum(int a,int b){
-        return a+b;
+        return a + b;
     }
 }

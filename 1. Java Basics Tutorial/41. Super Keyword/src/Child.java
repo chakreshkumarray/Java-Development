@@ -1,5 +1,3 @@
-package SuperKeyword;
-
 public class Child extends Parent{
 
    public Child(int age ,String name){ // passing parameter

@@ -12,17 +12,20 @@ public  class  Car extends Vehicle{
 
     private final int speedLimit=200;
 
-   // public Car{
-     //   speedLimit = 300;
-    //}
+    /*
+    * public Car{
+        speedLimit = 300;
+    }
 
-  //  public int getSpeedLimit() {
-     //   return speedLimit;
-   // }
+    public int getSpeedLimit() {
+        return speedLimit;
+    }
 
-   // public void setSpeedLimit(int speedLimit) {
-     //   this.speedLimit = speedLimit;
-    //}
+    public void setSpeedLimit(int speedLimit) {
+        this.speedLimit = speedLimit;
+    }
+
+     */
 
     @Override
     public void accelerate(){
