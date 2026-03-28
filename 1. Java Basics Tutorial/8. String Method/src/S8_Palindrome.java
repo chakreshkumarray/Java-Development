@@ -15,5 +15,6 @@ public class S8_Palindrome {
         }else {
             System.out.println("String is not Palindrome");
         }
+
     }
 }
