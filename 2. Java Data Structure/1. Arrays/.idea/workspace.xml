@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475d1b15-1fec-4ec8-9283-c5083c6a2d0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A35_DuplicateElementOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1. Java Basics Tutorial/1. First Program/src/F4_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java Basics Tutorial/1. First Program/src/F4_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A36_Cepheid_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A37_IBM_TimeWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A34_FindSubArrayWithTheGivenSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A34_FindSubArrayWithTheGivenSumK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,8 @@
     "Application.A33_PairOfTwoNumberEqualToTarget.executor": "Run",
     "Application.A34_FindSubArrayWithTheGivenSumK.executor": "Run",
     "Application.A35_DuplicateElementOccurrence.executor": "Run",
+    "Application.A36_Cepheid_Solution.executor": "Run",
+    "Application.A37_IBM_TimeWindow.executor": "Run",
     "Application.A3_InsertionSort.executor": "Run",
     "Application.A3_SelectionSort.executor": "Debug",
     "Application.A4_MergeSort.executor": "Run",
