@@ -4,3 +4,10 @@ public class V3_Boolean {
         System.out.println(isCk);
     }
 }
+/*
+Q. What is boolean?
+Ans. The boolean data type is used to store only two values:
+     true or false
+     boolean isJavaFun = true;
+     boolean isLoggedIn = false;
+ */
