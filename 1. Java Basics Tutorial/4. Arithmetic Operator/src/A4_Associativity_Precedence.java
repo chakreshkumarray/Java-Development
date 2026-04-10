@@ -20,3 +20,12 @@ public class A4_Associativity_Precedence {
 
     }
 }
+/*
+Q. What is Precedence?
+Ans. Precedence tells which operator is executed first when multiple operators are present.
+
+Q. What is Associativity?
+Ans. Associativity tells which direction to evaluate when operators have same precedence.
+     Top to Bottom
+     Left to Right (→)
+ */
