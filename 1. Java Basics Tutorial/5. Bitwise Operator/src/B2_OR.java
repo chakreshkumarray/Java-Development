@@ -9,3 +9,11 @@ public class B2_OR {
         System.out.println("OR is :"+OR);
     }
 }
+/* OR (|)
+
+5 | 3
+101
+011
+----
+111 = 7
+ */
