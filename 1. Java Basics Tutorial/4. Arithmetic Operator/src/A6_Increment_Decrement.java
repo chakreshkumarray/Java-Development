@@ -6,7 +6,7 @@ public class A6_Increment_Decrement {
         System.out.println(a);
         System.out.println(b);
 
-        int p =1;
+        int p = 1;
         int q = p + (++p);
         System.out.println(p);
         System.out.println(q);
@@ -22,3 +22,10 @@ public class A6_Increment_Decrement {
         System.out.println(complexCalculation);
     }
 }
+/*
+Pre Increment: ++a -> first increase then use
+Post Increment: a++; -> first use then increase
+
+Pre Decrement: --a; -> first decrease then use
+Post Decrement: a--; -> first use then decrease
+ */
