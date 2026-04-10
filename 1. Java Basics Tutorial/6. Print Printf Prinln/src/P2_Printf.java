@@ -16,3 +16,7 @@ public class P2_Printf {
         System.out.printf("%c & %.1f",d,e);
     }
 }
+/*
+
+Used for formatted output (like C language)
+ */
