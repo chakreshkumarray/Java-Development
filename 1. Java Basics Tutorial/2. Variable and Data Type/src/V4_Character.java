@@ -32,3 +32,30 @@ public class V4_Character {
         }
     }
 }
+/*
+Q. What is char?
+Ans. char is a primitive data type used to store a single character.
+     char ch = 'A';
+
+     Size: 2 bytes (16 bits)
+     Stores Unicode characters (not just ASCII)
+     Range: 0 to 65,535 (unsigned)
+     Must be written inside single quotes ' '
+
+     Java uses Unicode, so char can store:
+
+     English letters → 'A'
+     Digits → '1'
+     Symbols → '@'
+     Other languages → 'ह', '中'
+
+     Example: char ch1 = 'A';
+             char ch2 = 'ह';  // Hindi character
+
+     char ch = 'A';
+     System.out.println((int)ch); // 65
+
+     char ch = 'A';
+     ch = (char)(ch + 1);
+     System.out.println(ch); // B
+ */
