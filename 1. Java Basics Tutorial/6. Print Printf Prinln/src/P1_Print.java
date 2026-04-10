@@ -7,3 +7,6 @@ public class P1_Print {
         System.out.print("ck ray....");
     }
 }
+/*
+Prints the text without moving to the next line
+ */
