@@ -11,3 +11,18 @@ public class B5_LeftShift {
 
     }
 }
+/*
+Left Shift (<<)
+
+Shifts bits to the left
+Adds zeros on the right
+Equivalent to multiplying by 2
+
+Example:
+
+5 << 1
+101 → 1010 = 10
+
+👉 Result = 10
+
+ */
