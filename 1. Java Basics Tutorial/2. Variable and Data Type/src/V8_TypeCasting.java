@@ -30,3 +30,29 @@ public class V8_TypeCasting {
         System.out.println(g);
     }
 }
+/*
+Q. What is type casting?
+Ans. Type casting means converting one data type into another data type.
+     To convert data from one type to another
+     To avoid errors
+     To perform operations between different data types
+
+     1. Implicit Casting (Widening)
+         Done automatically by Java
+         Converts smaller → larger type
+         No data loss
+         byte → short → int → long → float → double
+
+         int a = 10;
+         double b = a;           int → double (automatic)
+         System.out.println(b);  10.0
+
+     2. Explicit Casting (Narrowing)
+         Done manually by programmer
+         Converts larger → smaller type
+         May cause data loss
+
+         double d = 10.75;
+         int x = (int) d;          double → int
+         System.out.println(x);    10 (decimal lost)
+ */
