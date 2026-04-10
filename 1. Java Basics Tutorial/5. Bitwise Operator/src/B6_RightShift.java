@@ -11,3 +11,17 @@ public class B6_RightShift {
 
     }
 }
+/*
+
+6. Right Shift (>>)
+Shifts bits to the right
+Removes bits from the right
+Equivalent to dividing by 2
+
+Example:
+
+5 >> 1
+101 → 10 = 2
+
+👉 Result = 2
+ */
