@@ -7,3 +7,7 @@ public class P3_PrintLn {
         System.out.println("Hello, World!");
     }
 }
+/*
+
+Prints the text and moves cursor to next line
+ */
