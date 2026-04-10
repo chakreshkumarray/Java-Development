@@ -9,3 +9,11 @@ public class B4_XOR {
         System.out.println("XOR is :"+XOR);
     }
 }
+/*
+XOR (^)
+5 ^ 3
+101
+011
+----
+110 = 6
+ */
