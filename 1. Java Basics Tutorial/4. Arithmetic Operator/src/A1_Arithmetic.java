@@ -19,3 +19,21 @@ public class A1_Arithmetic {
 
     }
 }
+/*
+Q. What is Operator?
+Ans. An operator is a symbol that tells the computer to perform a specific
+     operation on one or more values (called operands).
+
+     int a = 10;
+     int b = 5;
+     int sum = a + b;
+
+     Operator -> +
+     Operand -> a, b
+
+     + (Addition)
+     - (Subtraction)
+     * (Multiplication)
+     / (Division)
+     % (Modulus)
+ */
