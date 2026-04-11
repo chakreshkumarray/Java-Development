@@ -6,7 +6,7 @@ public class L2_For {
         }
 
         // pattern printing
-        for(int i = 1; i <= 100000; i = i*10){
+        for(int i = 1; i <= 100000; i = i * 10){
             System.out.println(i);
         }
 
