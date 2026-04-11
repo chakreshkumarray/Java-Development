@@ -1,7 +1,7 @@
 public class F11_SumNumber {
     public static void main(String[] args) {
 
-       int a= SumOfTwo(10,20);
+       int a = SumOfTwo(10,20);
         System.out.println(a);
     }
 
