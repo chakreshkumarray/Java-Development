@@ -10,7 +10,7 @@ public class L8_CountDigitOfNumber {
             n = n / 10;
             result++;
         }
-        System.out.println(result);
+        System.out.println("Number of Digits are: "+result);
 
     }
 }
