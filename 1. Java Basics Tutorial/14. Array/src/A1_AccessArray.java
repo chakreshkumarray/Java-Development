@@ -8,7 +8,7 @@ public class A1_AccessArray {
         // super class of array is object
         // store multiple value
         // array is very fast compare to primitive data type
-        // because primitive data type use wrapper claas for internal conversion
+        // because primitive data type use wrapper class for internal conversion
         // can't increase or decrease size of array at run time
         // store object directly of class
         // slow speed when delete element from middle need to traverse whole array
