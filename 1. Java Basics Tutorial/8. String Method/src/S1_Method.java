@@ -4,7 +4,7 @@ public class S1_Method {
         String name = "Ck Ray...";
 
         System.out.println(name.length());
-        System.out.println(name.charAt(2));
+        System.out.println(name.charAt(3));
 
 
     }
