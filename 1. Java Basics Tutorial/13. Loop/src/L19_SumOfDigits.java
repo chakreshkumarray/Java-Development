@@ -11,6 +11,6 @@ public class L19_SumOfDigits {
             sum = sum + num % 10;
             num = num / 10;
         }
-        System.out.println("Number is :"+sum);
+        System.out.println("Sum of Digits is :"+sum);
     }
 }
