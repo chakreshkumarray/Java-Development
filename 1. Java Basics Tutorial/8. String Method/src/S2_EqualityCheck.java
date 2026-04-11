@@ -11,7 +11,7 @@ public class S2_EqualityCheck {
         String name4 = "ck kumar";
         System.out.println(name3.equalsIgnoreCase(name4));
 
-        // Compare to Method check character lexico graphically
+        // Compare to Method check character Lexico graphically
         String str1 = "pka";
         String str2 = "AkCK";
         System.out.println('p'+0);
