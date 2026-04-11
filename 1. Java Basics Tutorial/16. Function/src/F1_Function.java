@@ -10,3 +10,11 @@ public class F1_Function {
     }
 
 }
+/*
+🔷 What is a Function?
+
+A function (in Java, we usually call it a method) is a block of code that performs a
+specific task and can be reused whenever needed.
+
+👉 Instead of writing the same code again and again, we write it once in a function and call it multiple times.
+ */
