@@ -5,7 +5,7 @@ public class C1_If {
 
         Scanner input= new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int num=input.nextInt();
+        int num = input.nextInt();
         if(num % 2 == 0){
             System.out.println("Number is Even..");
         }
