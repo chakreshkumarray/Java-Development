@@ -7,8 +7,8 @@ public class R3_GreaterThan {
 
         char c = 'K';
         char d = 'C';
-        System.out.println('K'+0);
-        System.out.println('C'+0);
+        System.out.println('K' + 0);
+        System.out.println('C' + 0);
         System.out.println(c > d);
 
         String str1 = "CKS";
