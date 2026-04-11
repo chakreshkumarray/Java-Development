@@ -7,8 +7,8 @@ public class R4_LessThan {
 
         char c = 'p';
         char d = 'P';
-        System.out.println('p'+0);
-        System.out.println('P'+0);
+        System.out.println('p' + 0);
+        System.out.println('P' + 0);
         System.out.println(c < d);
     }
 }
