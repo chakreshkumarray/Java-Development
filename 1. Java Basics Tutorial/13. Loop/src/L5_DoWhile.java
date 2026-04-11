@@ -16,3 +16,7 @@ public class L5_DoWhile {
 
     }
 }
+/*
+Q. Do-While Loop?
+Ans. do-while → executes at least once
+ */
