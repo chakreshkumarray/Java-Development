@@ -9,10 +9,10 @@ public class S2_Concatenate {
         System.out.print("Enter string: ");
         String str2 = input.next();
 
-        System.out.println(str1.concat(str2));
+        System.out.println(str1.concat(str2)); // ChakreshKumar
 
-        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str2)); // false
 
-        System.out.println(str1.toUpperCase());
+        System.out.println(str1.toUpperCase()); // CHAKRESH
     }
 }
