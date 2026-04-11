@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class S3_Month {
     public static void main(String[] args) {
 
-        Scanner input =new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter the month in number: ");
-        int month=input.nextInt();
+        int month = input.nextInt();
 
         switch (month){
             case 1:
