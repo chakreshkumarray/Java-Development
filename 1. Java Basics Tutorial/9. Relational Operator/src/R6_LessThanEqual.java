@@ -7,8 +7,8 @@ public class R6_LessThanEqual {
 
         char c = 'h';
         char d = 'H';
-        System.out.println('h'+0);
-        System.out.println('H'+0);
+        System.out.println('h' + 0);
+        System.out.println('H' + 0);
         System.out.println(c <= d);
     }
 }
