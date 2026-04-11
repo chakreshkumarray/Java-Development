@@ -12,13 +12,13 @@ public class R1_Equality {
 
         String name1 = new String("Chakresh Kumar");
 
-        System.out.println(a == b);
-        System.out.println(myName == name);
+        System.out.println(a == b); // check value case in integer
+        System.out.println(myName == name); // check reference case of string
 
         System.out.println(name1 == myName);
 
-        System.out.println('c'+0);
-        System.out.println('C'+0);
+        System.out.println('c' + 0);
+        System.out.println('C' + 0);
         System.out.println(c == d);
     }
 }
