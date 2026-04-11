@@ -11,3 +11,9 @@ public class R1_Factorial {
         return num*Fact(num - 1); // recursive call
     }
 }
+/*
+🔷 What is Recursion?
+
+Recursion is a technique where a function calls itself to solve a problem.
+
+ */
