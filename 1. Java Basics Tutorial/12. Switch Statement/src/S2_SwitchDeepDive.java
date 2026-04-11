@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class S2_SwitchDeepDive {
     public static void main(String[] args) {
 
-        Scanner input =new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number=input.nextInt();
+        int number = input.nextInt();
 
         switch (number){
             case 1:
