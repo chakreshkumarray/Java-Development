@@ -15,3 +15,8 @@ public class L3_While {
         }
     }
 }
+/*
+Q. While Loop?
+Ans. while → when condition-based repetition
+
+ */
