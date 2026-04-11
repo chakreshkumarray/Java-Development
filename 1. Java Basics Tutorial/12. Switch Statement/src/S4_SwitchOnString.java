@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class S4_SwitchOnString {
     public static void main(String[] args) {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter the String in Fruits Name: ");
-        String  Fruits=input.nextLine();
+        String  Fruits = input.nextLine();
 
         switch (Fruits){
             case "Apple":
