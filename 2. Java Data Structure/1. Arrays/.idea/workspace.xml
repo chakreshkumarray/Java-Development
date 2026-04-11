@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475d1b15-1fec-4ec8-9283-c5083c6a2d0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A36_Cepheid_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A37_IBM_TimeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A1_AccessArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A1_AccessArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A22_maximumAndMinimumElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A22_MaximumAndMinimumElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A2_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Java Basics Tutorial/14. Array/src/A2_Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chakreshkumarray"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chakreshkumarray/Java-Development.git",
+    "accountId": "137caaf7-568a-4158-8cda-865ce5a4fcec"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -88,12 +100,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Java-Development/2. Java Data Structure/1. Arrays",
-    "onboarding.tips.debug.path": "E:/Java-Development/Java Data Structure/1. Arrays/src/Main.java"
+    "onboarding.tips.debug.path": "E:/Java-Development/Java Data Structure/1. Arrays/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="TaskManager">
@@ -103,7 +118,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758105293218</updated>
+      <workItem from="1775909850639" duration="119000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
