@@ -1,4 +1,4 @@
-public class A22_maximumAndMinimumElement {
+public class A22_MaximumAndMinimumElement {
     public static void main(String[] args) {
 
         int[] arr = {13, 16, 90, 64, 16, 33, 52};
