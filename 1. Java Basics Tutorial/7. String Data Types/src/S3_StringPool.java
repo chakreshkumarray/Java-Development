@@ -15,3 +15,8 @@ public class S3_StringPool {
         System.out.println(x == y); // Reference Checking not Equality
     }
 }
+/*
+.equals --> check actual
+==     --> check address
+
+ */
