@@ -11,9 +11,5 @@ public class Test {
         School.getInstance();
         School.getInstance();
 
-        Student school = new Student(); // public
-        school.sayBye();
-        
-
     }
 }

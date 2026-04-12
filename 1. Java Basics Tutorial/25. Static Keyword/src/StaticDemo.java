@@ -27,4 +27,7 @@ public class StaticDemo {
     v. A "static" method can not refer to "this" or "super" keyword in any way.
      */
 
+    /*Keywords are reserved words in Java that define specific behavior of the program. They are used to
+    control flow, define structure, and manage memory and access in a standardized way.*/
+
 }

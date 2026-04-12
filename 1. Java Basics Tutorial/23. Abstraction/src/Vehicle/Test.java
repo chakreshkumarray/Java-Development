@@ -1,20 +1,19 @@
+package Vehicle;
+
 public class Test {
     public static void main(String[] args) {
 
+        Vehicle vehicle = new Car();
+
+
         Car car = new Car();
         car.accelerate();
-
-        EVCar evCar = new EVCar();
-        evCar.EV();
+        car.Speed();
+        car.decelerate();
 
         Cycle cycle = new Cycle();
         cycle.accelerate();
         cycle.decelerate();
 
-        /*
-        Cycle --> Vehicle
-        Car --> Vehicle
-        EVCar --> Car
-         */
     }
 }

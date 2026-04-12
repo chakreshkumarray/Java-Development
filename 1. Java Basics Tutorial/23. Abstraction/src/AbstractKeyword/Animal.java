@@ -1,6 +1,7 @@
 package AbstractKeyword;
 
 public abstract class Animal {
+
     private String name;
     private int age;
 
@@ -40,3 +41,9 @@ public abstract class Animal {
     }
 
 }
+/*
+Q. Abstraction is used to hide implementation details and expose only necessary functionality. It helps in reducing
+Ans. complexity, improving maintainability, enhancing security, and achieving loose coupling in the system.
+
+Q.
+ */

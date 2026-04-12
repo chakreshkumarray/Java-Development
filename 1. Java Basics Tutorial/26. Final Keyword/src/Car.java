@@ -10,7 +10,7 @@ public  class  Car extends Vehicle{
         PI = 3.15499;
     }
 
-    private final int speedLimit=200;
+    private final int speedLimit = 200;
 
     /*
     * public Car{
@@ -29,12 +29,11 @@ public  class  Car extends Vehicle{
 
     @Override
     public void accelerate(){
-
+        System.out.println("Car accelerates");
     }
 
     @Override
     public void decelerate(){
-
+        System.out.println("Car decelerates");
     }
-
 }

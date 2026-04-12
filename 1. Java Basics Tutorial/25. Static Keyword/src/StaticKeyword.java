@@ -25,4 +25,5 @@ public class StaticKeyword {
     void m1(){
         // static int b = 20; --> error declare in class not method
     }
+
 }

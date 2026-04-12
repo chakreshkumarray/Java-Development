@@ -15,3 +15,20 @@ public class FinalKeyword {
     }
 
 }
+/*
+🔷 1. What is final Keyword?
+final is used to restrict modification.
+
+It can be applied to:
+Variable
+Method
+Class
+
+🔷 2. final Variable
+Once assigned → value cannot be changed
+
+🔷 3. final Method
+Cannot be overridden
+
+
+ */

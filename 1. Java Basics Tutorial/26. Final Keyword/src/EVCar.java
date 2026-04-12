@@ -7,4 +7,8 @@ public class EVCar extends Car{
     }
     */
 
+    public void EV(){
+        System.out.println("This is a EVCar");
+    }
+
 }
