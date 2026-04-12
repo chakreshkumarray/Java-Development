@@ -2,7 +2,7 @@ package Interface;
 
 public class SmartPhone  implements MusicPlayer, Camera, Call{
 
-    // Calling
+    // Call
     public void makeCall(int number){
         System.out.println("Calling Ck Ray");
     }
@@ -20,7 +20,7 @@ public class SmartPhone  implements MusicPlayer, Camera, Call{
 
     // Camera
     public void takePhoto(){
-        System.out.println("click a photo..");
+        System.out.println("Click a photo..");
     }
     public void recordVideo(){
         System.out.println("Record ths video..");
