@@ -4,7 +4,7 @@ public interface MusicPlayer {
 
    void PlayMusic();
 
-    void StopMusic();
+   void StopMusic();
 
 
 }
