@@ -1,4 +1,4 @@
-package Methods;
+package W4_Method;
 
 public class Students {
     public static void main(String[] args) {
