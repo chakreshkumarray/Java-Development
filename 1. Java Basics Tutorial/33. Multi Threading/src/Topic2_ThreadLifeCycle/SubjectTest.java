@@ -6,7 +6,7 @@ public class SubjectTest {
         Subject subject = new Subject(); // New State
 
         Thread t2 = new Thread(subject);
-        t2.start();                      // Runnable state
+        t2.start();                      // Runnables state
 
        for (; ; ){
            System.out.println("Hindi"); // waiting

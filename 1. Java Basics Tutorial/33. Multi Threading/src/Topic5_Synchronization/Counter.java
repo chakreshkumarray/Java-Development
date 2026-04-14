@@ -22,3 +22,10 @@ public class Counter {
     }
 
 }
+/*
+🔹 What is Synchronization?
+Ans. Synchronization is a way to control multiple threads so that only one thread accesses shared data at a time.
+
+🔹 Simple Meaning
+Ans. “Only one thread can use this resource at a time.”
+ */

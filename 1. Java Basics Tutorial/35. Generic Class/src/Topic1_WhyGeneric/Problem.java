@@ -22,3 +22,7 @@ public class Problem {
         
     }
 }
+/*
+🔹 What are Generics?
+👉 Generics allow you to write type-safe and reusable code by specifying the type at compile time
+ */

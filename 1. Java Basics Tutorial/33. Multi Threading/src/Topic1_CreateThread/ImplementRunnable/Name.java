@@ -10,3 +10,7 @@ public class Name implements Runnable{
     }
 
 }
+/*
+✅ What is Runnables?
+Runnables is an interface in Java used to create a thread.
+ */

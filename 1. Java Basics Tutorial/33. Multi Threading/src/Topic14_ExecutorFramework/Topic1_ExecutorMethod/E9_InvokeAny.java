@@ -1,0 +1,37 @@
+package Topic14_ExecutorFramework.Topic1_ExecutorMethod;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.*;
+
+public class E9_InvokeAny {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+
+        Callable callable1 = () ->{
+            System.out.println("ck 1");
+            Thread.sleep(1000);
+            return 1;
+        };
+        Callable callable2 = () -> {
+            Thread.sleep(1000);
+            System.out.println("ck 2");
+            return 2;
+        };
+        Callable callable3 = () -> {
+            System.out.println("ck 3");
+            return 3;
+        };
+        List<Callable<Integer>> lists = Arrays.asList(callable1,callable2,callable3);
+        Integer i =  executorService.invokeAny(lists);
+        System.out.println(i);
+        executorService.shutdown();
+        System.out.println("Chakresh");
+    }
+}
+/*
+🔹 3. invokeAny()
+ Used to execute multiple tasks but returns only one result
+✔ Returns: Result of first completed task
+ */

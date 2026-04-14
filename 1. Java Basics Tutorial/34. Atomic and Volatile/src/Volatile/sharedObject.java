@@ -29,6 +29,13 @@ public class sharedObject{
 
         writerThread.start();
         readerThread.start();
-
     }
 }
+/*
+🔹 1. volatile
+ What is volatile?
+volatile is a keyword used for variables to ensure: visibility across threads
+
+🔹 What it Guarantees
+✔ Latest value is always read from main memory
+ */

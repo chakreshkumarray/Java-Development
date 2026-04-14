@@ -30,4 +30,9 @@ public class Atomic {
         System.out.println(vc.getCounter());
     }
 }
-
+/*
+🔹 What it Guarantees
+✔ Atomicity (thread-safe operations)
+✔ No race condition
+✔ Lock-free (fast)
+ */

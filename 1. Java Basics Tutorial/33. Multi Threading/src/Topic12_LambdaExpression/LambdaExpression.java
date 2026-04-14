@@ -30,3 +30,10 @@ public class LambdaExpression {
         t3.start();
     }
 }
+/*
+🔹 What is a Lambda Expression?
+   A lambda expression is a short way to write a function (method) without a name.
+
+🔹 Simple Meaning
+   Lambda = shortcut to write code for one-method interface
+ */

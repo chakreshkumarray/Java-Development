@@ -20,3 +20,10 @@ public class CTF {
         System.out.println(" Main ");
     }
 }
+/*
+🔹 CompletableFuture – Complete Methods Table
+CompletableFuture is an advanced version of Future that supports:
+async execution
+chaining
+combining tasks
+ */
