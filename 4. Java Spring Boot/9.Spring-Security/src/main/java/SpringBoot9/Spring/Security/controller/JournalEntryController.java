@@ -1,9 +1,9 @@
-package SpringBootApplication9.Spring.Security.controller;
+package SpringBoot9.Spring.Security.controller;
 
-import SpringBootApplication9.Spring.Security.entity.JournalEntry;
-import SpringBootApplication9.Spring.Security.entity.User;
-import SpringBootApplication9.Spring.Security.service.JournalEntryService;
-import SpringBootApplication9.Spring.Security.service.UserService;
+import SpringBoot9.Spring.Security.entity.JournalEntry;
+import SpringBoot9.Spring.Security.entity.User;
+import SpringBoot9.Spring.Security.service.JournalEntryService;
+import SpringBoot9.Spring.Security.service.UserService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

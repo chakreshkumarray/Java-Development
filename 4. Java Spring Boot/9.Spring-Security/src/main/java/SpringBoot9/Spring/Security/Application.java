@@ -1,4 +1,4 @@
-package SpringBootApplication9.Spring.Security;
+package SpringBoot9.Spring.Security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,8 +16,8 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-    @Bean
-    public PlatformTransactionManager add(MongoDatabaseFactory dbFactory){
-        return new MongoTransactionManager(dbFactory);
-    }
+	@Bean
+	public PlatformTransactionManager add(MongoDatabaseFactory dbFactory){
+		return new MongoTransactionManager(dbFactory);
+	}
 }

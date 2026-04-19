@@ -1,6 +1,6 @@
-package SpringBootApplication9.Spring.Security.repository;
+package SpringBoot9.Spring.Security.repository;
 
-import SpringBootApplication9.Spring.Security.entity.User;
+import SpringBoot9.Spring.Security.entity.User;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

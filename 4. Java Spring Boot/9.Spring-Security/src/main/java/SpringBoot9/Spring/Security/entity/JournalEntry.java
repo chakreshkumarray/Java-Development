@@ -1,4 +1,4 @@
-package SpringBootApplication9.Spring.Security.entity;
+package SpringBoot9.Spring.Security.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

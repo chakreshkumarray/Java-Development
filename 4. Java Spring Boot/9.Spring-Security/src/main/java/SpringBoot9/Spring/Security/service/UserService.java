@@ -1,7 +1,7 @@
-package SpringBootApplication9.Spring.Security.service;
+package SpringBoot9.Spring.Security.service;
 
-import SpringBootApplication9.Spring.Security.entity.User;
-import SpringBootApplication9.Spring.Security.repository.UserRepository;
+import SpringBoot9.Spring.Security.entity.User;
+import SpringBoot9.Spring.Security.repository.UserRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
